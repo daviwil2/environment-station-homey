@@ -1,6 +1,6 @@
 {
   "id": "com.github.noreply.users.environment-station",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "compatibility": ">=2.0",
   "sdk": 2,
   "brandColor": "#99965E",
@@ -67,7 +67,7 @@
       "getable": true,
       "setable": false,
       "icon": "/assets/measure_PM1.svg",
-      "units": "ppm",
+      "units": "μg/m\u00b3",
       "desc": "Atmospheric Particulate Matter (μg/m3)",
       "decimals": 0,
       "$flow": {
@@ -96,7 +96,7 @@
       "getable": true,
       "setable": false,
       "icon": "/assets/measure_PM10.svg",
-      "units": "ppm",
+      "units": "μg/m\u00b3",
       "desc": "Atmospheric Particulate Matter (μg/m3)",
       "decimals": 0,
       "$flow": {
