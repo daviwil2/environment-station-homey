@@ -51,7 +51,7 @@
                 "name": "timestamp",
                 "title": { "en": "timestamp" },
                 "type": "string",
-                "example": "9-Apr-21 at 16:09"
+                "example": "16:09"
               }
             ]
           }
@@ -138,7 +138,7 @@
                 "name": "measure_uva",
                 "title": { "en": "UV/A" },
                 "type": "number",
-                "example": 10
+                "example": 59.07
               }
             ]
           }
@@ -167,7 +167,7 @@
                 "name": "measure_uvb",
                 "title": { "en": "UV/B" },
                 "type": "number",
-                "example": 10
+                "example": 25.05
               }
             ]
           }
@@ -185,7 +185,7 @@
       "icon": "/assets/uv-sun.svg",
       "units": "UVI",
       "desc": "Ultraviolet Index",
-      "decimals": 2,
+      "decimals": 1,
       "$flow": {
         "triggers": [
           {
@@ -196,7 +196,7 @@
                 "name": "measure_uvi",
                 "title": { "en": "UV Index" },
                 "type": "number",
-                "example": 10
+                "example": 4.5
               }
             ]
           }
